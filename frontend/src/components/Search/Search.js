@@ -23,9 +23,9 @@ function Search() {
   let searchData;
   useEffect(() => {
     if (value === "Hotels") {
-      propertyInfo.map((item) => optionsDetails.push(item.propName));
+      propertyInfo?.map((item) => optionsDetails.push(item.propName));
     } else {
-      blogInfo.map((item) => optionsDetails.push(item.blogTitle));
+      blogInfo?.map((item) => optionsDetails.push(item.blogTitle));
     }
   }, [value, search, searchInputValue]);
 
