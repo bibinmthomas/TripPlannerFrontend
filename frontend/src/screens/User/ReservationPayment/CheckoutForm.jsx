@@ -67,7 +67,7 @@ export default function CheckoutForm() {
       confirmParams: {
         // Make sure to change this to your payment completion page
         // return_url: `http://localhost:3000/paymentSuccess/${reservationInfo._id}`,
-        return_url: `${BASE_URL}/paymentSuccess/${reservationInfo._id}`,
+        return_url: `https://silver-sprite-88896f.netlify.app/paymentSuccess/${reservationInfo._id}`,
       },
     });
 
